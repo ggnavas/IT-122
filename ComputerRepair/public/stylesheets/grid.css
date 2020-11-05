@@ -1,0 +1,19 @@
+  * {
+      text-align: center;
+  }
+
+  .list {
+    list-style-position: inside;
+  }
+  
+  .list li{
+    position: relative;
+  }
+  .list li a {
+    position: absolute;
+    left: 20px;
+  }
+
+  .container {
+    margin: 20%;
+  }
