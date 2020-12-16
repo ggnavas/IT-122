@@ -1,0 +1,17 @@
+{
+  "name": "Restful",
+  "version": "1.0.0",
+  "description": "RestAPI and CRUD operations",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^13.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "Start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Christopher Luhrman",
+  "license": "ISC"
+}

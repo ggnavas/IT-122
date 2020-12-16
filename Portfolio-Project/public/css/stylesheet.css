@@ -1,0 +1,69 @@
+*{
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 150px;
+  color: white;
+}
+
+.userPic{
+  height: 100%;
+  width: auto;
+}
+
+.userDetails{
+  background-color: #00A7DB;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0px 15px;
+  flex-grow: 2;
+}
+
+.userDetails h1{
+  margin: 0;
+  font-size: 20px;
+}
+
+.userDetails span{
+  margin: 0;
+  display: inline-block;
+}
+
+.home{
+  background-color: #00C1EA;
+}
+
+.projects{
+  background-color: #94D401;
+}
+
+.contact{
+  background-color: #61B100;
+}
+
+.home,
+.projects,
+.contact{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.home ion-icon,
+.projects ion-icon,
+.contact ion-icon{
+  font-size: 90px;
+}
